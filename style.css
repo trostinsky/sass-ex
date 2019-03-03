@@ -1,0 +1,28 @@
+.title, .block h3 {
+  text-align: center;
+}
+
+.block {
+  display: flex;
+}
+.block.info h3 {
+  color: blue;
+}
+.block.info button {
+  background-color: blue;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 12px;
+}
+.block.services h3 {
+  color: green;
+}
+.block.services button {
+  background-color: green;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 12px;
+  padding: 15px 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

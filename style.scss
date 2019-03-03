@@ -1,0 +1,31 @@
+@import 'extend';
+@import 'mixin';
+
+.title {
+    text-align: $center;
+}
+.block {
+     display: flex;
+    &.info {
+        h3 {
+            color: $color-blue;
+        }
+        button {
+            background-color: $color-blue;
+            @include button;
+        }
+    }
+    &.services {
+        h3 {
+            color: $color-green;
+        }
+        button {
+            background-color: $color-green;
+            @include button;
+            padding: 15px 35px;
+        }
+    }
+    h3 {
+        @extend .title;
+    }
+}
